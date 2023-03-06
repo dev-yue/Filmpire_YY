@@ -11,7 +11,7 @@ import {
 } from "@mui/material";
 import { Link } from "react-router-dom";
 import { useTheme } from "@mui/styles";
-import { useDispatch, useSel, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 
 import {selectGenreOrCategory} from '../../features/currentGenreOrCategory'
