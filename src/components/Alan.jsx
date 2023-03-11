@@ -45,8 +45,8 @@ const useAlan = () => {
         } else if (command === "logout") {
           localStorage.clear();
           navigate("/");
-        } else if (command === 'search') {
-            dispatch(searchMovie(query))
+        } else if (command === "search") {
+          dispatch(searchMovie(query));
         }
       },
     });
@@ -54,5 +54,3 @@ const useAlan = () => {
 };
 
 export default useAlan;
-
-
